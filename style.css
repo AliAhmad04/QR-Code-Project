@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  Utility  */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(214, 226, 240);
+    justify-content: center;
+    padding-inline: 15px;
+}
+
+.qr-code-box {
+    background-color: white;
+    width: 20vw;
+    height: 62vh;
+    border-radius: 25px;
+    flex-direction: column;
+    padding-inline: 15px;
+    gap: 40px;
+}
+
+.qr-code-design {
+    background-color: hsla(217, 54%, 51%, 0.955);
+    background-image: url(image-qr-code.png);
+    background-size: 350px;
+    justify-content: baseline;
+    align-items: center;
+    width: 18vw;
+    height: 35vh;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.qr-code-box h3 {
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr-code-box p {
+    text-align: center;
+}
